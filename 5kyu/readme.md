@@ -1,5 +1,7 @@
-fruits = new Dictionary(['cherry', 'pineapple', 'melon', 'strawberry', 'raspberry']);
+const fruits = new Dictionary(['cherry', 'pineapple', 'melon', 'strawberry', 'raspberry']);
+
 fruits.findMostSimilar('strawbery'); // must return "strawberry"
+
 fruits.findMostSimilar('berry'); // must return "cherry"
 
 things = new Dictionary(['stars', 'mars', 'wars', 'codec', 'codewars']);
